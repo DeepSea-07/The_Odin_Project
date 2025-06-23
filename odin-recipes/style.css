@@ -1,0 +1,20 @@
+.border{
+    border: 5px inset gray;
+}
+
+.pic{
+    border: 2px dashed black;
+    padding: 3px;
+    height: 342px;
+    width: auto;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.border li{
+    border-bottom: 1px dashed rgb(77, 74, 74);
+    margin: 10px 5px;
+    font-size: 35px;
+}
+
