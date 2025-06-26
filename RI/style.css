@@ -63,6 +63,7 @@ body{
     flex-wrap: wrap;
     /*added this */
     flex: 1;
+    
     box-shadow: 20px 20px 30px rgba(0,0, 0, 0.8) inset;
 }
 
@@ -73,6 +74,9 @@ body{
     font-size: 24px;
     font-weight: 900;
     gap: 25px;
+    /*added this 1 */
+    min-width: 190;
+
     max-width: 200;
     flex:1;
     color:rgb(199, 149, 22);
