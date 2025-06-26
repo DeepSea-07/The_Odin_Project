@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -53,7 +58,7 @@ body{
     font-size: large;
     gap: 20px;
     flex-wrap: wrap;
-    box-shadow: 5px 5px 15px rgba(0,0, 0, 0.5);
+    box-shadow: 20px 20px 30px rgba(0,0, 0, 0.8) inset;
 }
 
 .main .content{
@@ -86,6 +91,7 @@ body{
     padding:40px 0px;
     background-color: aquamarine;
     font-size: large;
+    box-shadow: 20px 20px 30px rgba(0,0, 0, 0.8) ;
 }
 
 .imgall{
@@ -128,6 +134,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     flex: 1;
+    box-shadow: 20px 20px 30px rgba(0,0, 0, 0.8) inset;
 }
 
 .quote{
@@ -135,6 +142,7 @@ body{
     flex-direction: column;
     border-radius: 20px;
     text-align: center;
+    margin-left: 10px;
     padding: 20px;
 
     max-width: 900px;
@@ -158,11 +166,11 @@ body{
 /*SECTION 3 */
 
 .upper-footer{
-    background-color: rgb(143, 143, 143) ;
+    background-color: rgb(61, 61, 61) ;
     height: auto;
     display: flex;
     justify-content: center;
-    border: 5px dashed blue;
+ 
     
 
 }
@@ -171,9 +179,11 @@ body{
     margin: 50px;
     display: flex;
     flex-basis:950px;
-    border: 5px solid green;
-    border-radius: 20px;
+  
+    border-radius: 10px;
     justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.8);
 }
 
 .sentence{
@@ -196,4 +206,14 @@ body{
     border-radius: 20px;
     color: white;
     box-shadow: 3px 3px 8px rgba(0,0, 0, 0.8);
+}
+
+.footer{
+    height: 70px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+
 }
