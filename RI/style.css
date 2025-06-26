@@ -27,6 +27,7 @@ body{
     gap:35px;
     align-items: center;
     font-size: 25px;
+   
 
 
 }
@@ -35,6 +36,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 25px;
     gap:35px;
 
@@ -43,9 +45,8 @@ body{
 
 .main{
 
-    padding: 50px 30px;
+    padding: 100px 30px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     background-color: rgb(230, 217, 39);
@@ -59,20 +60,140 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 900;
     gap: 25px;
     max-width: 200;
     flex:1;
+    color:rgb(199, 149, 22);
     
     
-}
-
-.content div{
-    box-shadow: 5px 15px 3px 1px rgba(245, 184, 17, 0.4);
+    border-radius: 15px;
+    
 }
 
 
 #ri-video{
     border-radius: 25px;
     box-shadow: 5px 10px 15px 3px rgba(0,0, 0, 0.8);
+    min-width: 0px;
+}
+
+
+/*section 2 */
+
+.main2{
+    padding:40px 0px;
+    background-color: aquamarine;
+    font-size: large;
+}
+
+.imgall{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex:1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.img1 img{
+    max-width: 250px;
+    border-radius: 30px;
+    box-shadow: 15px 10px 20px rgba(0,0, 0, 1.5);
+}
+
+.img1 div{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 30px;
+    color: rgb(32, 31, 31);
+}
+
+
+
+
+
+.main3{
+    padding-top:60px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(31, 87, 109);
+    font-size: large;
+    padding-bottom: 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+
+    max-width: 900px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 8px 8px 8px 15px rgba(0, 0, 0, 0.8);
+    gap: 15px;
+
+    color: rgb(255, 255, 255);
+    
+}
+
+.quote-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*SECTION 3 */
+
+.upper-footer{
+    background-color: rgb(143, 143, 143) ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: 5px dashed blue;
+    
+
+}
+
+.box{
+    margin: 50px;
+    display: flex;
+    flex-basis:950px;
+    border: 5px solid green;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.sentence{
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.right-half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(25, 25, 224);
+    border: 2px solid white;
+    border-color: rgb(253, 253, 255);
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 3px 3px 8px rgba(0,0, 0, 0.8);
 }
